@@ -1,0 +1,24 @@
+{
+    "name": "arafat/phpunit-testing",
+    "description": "Learning phpunit test",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "MD Iyasin Arafat",
+            "email": "miyasinarafat@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^8.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "AppBundle\\" : "src/AppBundle"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Test\\": "test/"
+        }
+    }
+}
